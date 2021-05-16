@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+header {
+  background-color: #107dac;
+  padding-top: 10px;
+}
+
+header p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: larger;
+}
+
+.form {
+  text-align: center;
+  border: dotted;
+  border-color: dimgrey;
+  margin-top: 221px;
+  margin-bottom: 300px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+form {
+  text-align: center;
+  display: inline-grid;
+}
+
+form label {
+  margin-right: 170px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+form input {
+  margin-top: 5px;
+  padding: 3px 50px;
+}
+
+fieldset legend {
+  font-family: "Roboto", sans-serif;
+  color: dimgrey;
+  margin-right: 100px;
+}
+button {
+  background-color: #71c7ec;
+  color: white;
+  border: aqua;
+  margin-top: 10px;
+  margin-right: 70px;
+  margin-bottom: 7px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  font-size: larger;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #189ad3;
+}
+
+footer {
+  background-color: #107dac;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
